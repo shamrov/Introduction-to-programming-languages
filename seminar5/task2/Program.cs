@@ -4,7 +4,7 @@
 
 // [-4, -6, 89, 6] -> 0
 
-int[] ArrayFill(int size, int leftrange, int rightrange)
+int[] ArrayFillWithRandomElements(int size, int leftrange, int rightrange)
 {
     int[] array = new int[size];
     Random rand = new Random();
@@ -34,6 +34,6 @@ int SumElementNotEvenPos(int[] array)
     return sum;
 }
 
-int[] array = ArrayFill(6,1,10);
+int[] array = ArrayFillWithRandomElements(6,1,10);
 PrintArray(array);
 System.Console.WriteLine(SumElementNotEvenPos(array));

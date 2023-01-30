@@ -2,7 +2,7 @@
 
 // [345, 897, 568, 234] -> 2
 
-int[] ArrayFill(int size, int leftrange, int rightrange)
+int[] ArrayFillWithRandomElements(int size, int leftrange, int rightrange)
 {
     int[] array = new int[size];
     Random rand = new Random();
@@ -31,6 +31,6 @@ int CountPositivEvenElements(int[] array)
     return count;
 }
 
-int[] temp = ArrayFill(4,100,1000);
+int[] temp = ArrayFillWithRandomElements(4,100,1000);
 PrintArray(temp);
-System.Console.WriteLine($"Кол-во четных чисел в массиве = {CountPositivElements(temp)}");
+System.Console.WriteLine($"Кол-во четных чисел в массиве = {CountPositivEvenElements(temp)}");
