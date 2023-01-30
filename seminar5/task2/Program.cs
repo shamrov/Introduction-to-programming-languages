@@ -37,3 +37,4 @@ int SumElementNotEvenPos(int[] array)
 int[] array = ArrayFillWithRandomElements(6,1,10);
 PrintArray(array);
 System.Console.WriteLine(SumElementNotEvenPos(array));
+
