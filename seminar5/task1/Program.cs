@@ -18,7 +18,7 @@ void PrintArray(int[] array)
     System.Console.WriteLine($"[{string.Join(",", array)}]");
 }
 
-int CountPositivElements(int[] array)
+int CountPositivEvenElements(int[] array)
 {
     int count = 0;
     foreach (var item in array)
