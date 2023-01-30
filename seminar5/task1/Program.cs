@@ -34,3 +34,4 @@ int CountPositivEvenElements(int[] array)
 int[] temp = ArrayFillWithRandomElements(4,100,1000);
 PrintArray(temp);
 System.Console.WriteLine($"Кол-во четных чисел в массиве = {CountPositivEvenElements(temp)}");
+
