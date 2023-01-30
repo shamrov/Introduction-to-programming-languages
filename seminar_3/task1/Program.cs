@@ -24,4 +24,3 @@ else
     {
         System.Console.WriteLine($"Вы ввели не пятизначное число");
     }
-
