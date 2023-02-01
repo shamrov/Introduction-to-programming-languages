@@ -61,7 +61,7 @@ int NumLargeZero(int[] array)
 //     for (int i = 0; i < countNums; i++)
 //     {
 //         System.Console.Write($"Введите число: ");
-//         int num = InputNumber;
+//         int num = InputNumber();
 //         array[i] = num;
 //         count++;
 //         System.Console.WriteLine($"Вы ввели {count}/{countNums}");
